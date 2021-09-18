@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body .navbar {
+  background-color: #fff;
+  z-index: 1;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  -webkit-box-shadow: #f7f3f3 0px 5px;
+          box-shadow: #f7f3f3 0px 5px;
+}
+
+body .navbar .nav-block {
+  width: 90%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 0;
+}
+
+body .navbar .nav-block .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+  position: relative;
+  top: 8px;
+}
+
+body .navbar .nav-block .logo img {
+  margin: 0 15px;
+  height: 60px;
+  width: 70px;
+}
+
+body .navbar .nav-block .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .navbar .nav-block .nav div {
+  width: 180px;
+  position: relative;
+  top: 12px;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+body .navbar .nav-block .nav div:hover {
+  border-bottom: 2px solid gray;
+}
+
+body .navbar .nav-block .nav div a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+
+body .block1 {
+  height: 87vh;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+body .block1 div {
+  height: 60vh;
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .block1 div h1 {
+  font-size: 55px;
+  color: #1b3e5d;
+}
+
+body .block1 div p {
+  padding: 20px;
+  font-size: 25px;
+}
+
+body .block2 {
+  height: 87vh;
+  width: 100%;
+}
+
+body .block2 h2 {
+  font-size: 36px;
+  line-height: 64px;
+  margin: 20px 0 0 0;
+  color: #1b3e5d;
+  text-align: center;
+}
+/*# sourceMappingURL=pc.css.map */
